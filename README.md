@@ -18,7 +18,7 @@ brew install git-secret
 
 Add yourself as a person who can encrypt and decrypt secrets (this will require having set up your GPG):
 ```
-git secret tell <your verified email address associated with the GPG key>
+git secret tell -m
 ```
 
 Now that you've added yourself, the keyring has changed and the files will need to be re-encrypted before being decrypted:
