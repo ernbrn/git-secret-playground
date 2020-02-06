@@ -7,7 +7,7 @@ To set up secret handling you'll need to create a `gpg` RSA key-pair: public and
 
 * [Follow these instructions to generate GPG key-pair](https://help.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key#generating-a-gpg-key)
   * For the first step, you can use `brew install gpg` instead of dowloading the installation if you prefer
-  * **IMPORTANT:** Remember the passphrase you set: this will be the passphrase you use to decrypt the secrets
+  * **IMPORTANT:** Remember the passphrase you set: this will be the passphrase you use to encrypt and decrypt the secrets time and time again
 * [Then follow these instructions to add it to your Github account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-gpg-key-to-your-github-account)
 
 #### Get going with git-secret
